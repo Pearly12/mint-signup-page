@@ -1,0 +1,84 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14px;
+  background-color: lightgray;
+}
+
+.login-section {
+  float: right;
+}
+
+.login-section > p {
+  float: left;
+}
+
+.login-section > button {
+  float: right;
+  background-color: blue;
+  font-weight: 700;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.main-content {
+  clear: both;
+  text-align: center;
+  width: 380px;
+  margin: 0 auto;
+}
+
+.title-section div {
+  margin: 15px;
+  font-size: 18px;
+}
+
+.form-section {
+  border: 2px solid darkgray;
+  background-color: white;
+  text-align: left;
+}
+
+form ul {
+  list-style-type: none;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+.form-section p {
+  margin: 0 12.5%;
+  text-align: center;
+}
+
+.form-section label,
+.form-section input {
+  font-size: 20px;
+  margin: 10px 10px 20px 10px;
+  line-height: 1.5em;
+}
+
+.form-section button {
+  width: 80%;
+  background-color: blue;
+  color: white;
+  height: 2em;
+  font-size: 18px;
+  margin: 0 10% 10% 10%;
+}
+
+.main-section-bottom {
+  width: 100%;
+  height: 50px;
+  background-color: lightblue;
+  margin-top: 5%;
+  padding-top: 15px;
+}
+
+footer {
+  position: absolute;
+  bottom: 3%;
+  margin: 0 25%;
+  text-align: center;
+}
